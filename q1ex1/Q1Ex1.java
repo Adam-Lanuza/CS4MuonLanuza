@@ -5,15 +5,7 @@
  */
 package q1ex1;
 
-/**
- *
- * @author MUON
- */
 public class Q1Ex1 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // Re:Zero
 	String anime1Name = "Re: Zero";
