@@ -59,8 +59,7 @@ public class Monster {
 		return this.type;
 	}
 
-	// Added a getGuard method since the enemy monster's guard status has private
-	// access
+	// Added a getGuard method since the enemy monster's guard status has private access
 	public boolean getGuard() {
 		return guard;
 	}
@@ -107,8 +106,7 @@ public class Monster {
 		System.out.println(name + " put up its guard. It will receive 30% less damage on the next attack.");
 	}
 
-	// Added a clearGuard() method since guard can't be resest to false outside of
-	// the monster due to private access
+	// Added a clearGuard() method since guard can't be resest to false outside of the monster due to private access
 	public void clearGuard() {
 		guard = false;
 	}
