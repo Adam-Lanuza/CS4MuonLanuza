@@ -81,11 +81,11 @@ public abstract class Monster implements Interactive {
 		m.hp -= damage;
 		if(m.getHP() < 0) m.hp = 0;
 			System.out.println(name  + " attacked " + m.getName() +
-			" and dealt " + damage + " damage, reducing it to " +						m.getHP() + "HP.");
+			" and dealt " + damage + " damage, reducing it to " + m.getHP() + "HP.");
 		if(strong) System.out.println("It was super effective!");
 		if(weak) System.out.println("It wasn't very effective...");
 		
-		gainXP(2);// every attack raises XP by 2
+		gainXP(2); // every attack raises XP by 2
 
 		if(m.getHP() <= 0){
 			System.out.println(m.getName() + " fainted.");
